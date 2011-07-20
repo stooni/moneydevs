@@ -7,7 +7,7 @@ wordpress:
 deploy:
   base: &base
     ssh_user: 
-    ssh_domain: moneydevs.org
+    ssh_domain: moneydevs.com
     modules:
       - shared-dirs:
         - uploads
@@ -15,14 +15,14 @@ deploy:
     <<: *base
     default: true
     path: /var/www/moneydevs/
-    vhost: staging.moneydevs.org
+    vhost: staging.moneydevs.com
     database:
       name: mdevs_staging
       user: root
   production:
     <<: *base
     path: /var/www/moneydevs/
-    vhost: moneydevs.org
+    vhost: moneydevs.com
     database:
       name: mdevs_production
       user: root
