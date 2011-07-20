@@ -3,7 +3,7 @@ application:
   repository: git@github.com:qza/moneydevs.git
 wordpress:
   repository: git://github.com/dxw/wordpress.git
-  version: v3.0.1
+  version: v3.2.1
 deploy:
   base: &base
     ssh_user: 
@@ -14,7 +14,7 @@ deploy:
   staging:
     <<: *base
     default: true
-    path: /var/www/moneydevs/
+    path: /var/www/moneydevs_stage/
     vhost: staging.moneydevs.com
     database:
       name: moneydevs_devel

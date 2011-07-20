@@ -1,0 +1,28 @@
+--- 
+application:
+  repository: git@github.com:qza/moneydevs.git
+wordpress:
+  repository: git://github.com/dxw/wordpress.git
+  version: v3.0.1
+deploy:
+  base: &base
+    ssh_user: deploy
+    ssh_domain: example.org
+    modules:
+      - shared-dirs:
+        - uploads
+  staging:
+    <<: *base
+    default: true
+    path: /var/vhosts/example.org/staging/www
+    vhost: staging.example.org
+    database:
+      name: example_staging
+      user: root
+  production:
+    <<: *base
+    path: /var/vhosts/example.org/www
+    vhost: example.org
+    database:
+      name: example_production
+      user: root
