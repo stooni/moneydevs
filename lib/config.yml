@@ -17,12 +17,12 @@ deploy:
     path: /var/www/moneydevs/
     vhost: staging.moneydevs.com
     database:
-      name: mdevs_staging
+      name: moneydevs_devel
       user: root
   production:
     <<: *base
     path: /var/www/moneydevs/
     vhost: moneydevs.com
     database:
-      name: mdevs_production
+      name: moneydevs_prod
       user: root
