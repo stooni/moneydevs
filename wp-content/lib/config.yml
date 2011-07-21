@@ -6,16 +6,16 @@ wordpress:
   version: v3.2.1
 deploy:
   base: &base
-    ssh_user: 
-    ssh_domain: moneydevs.com
+    ssh_user: mone9237 # ruby
+    ssh_domain: moneydevs.com # localhost
     modules:
       - shared-dirs:
         - uploads
   staging:
     <<: *base
     default: true
-    path: /var/www/moneydevs_stage/
-    vhost: staging.moneydevs.com
+    path: ~/html/blog/
+    vhost: moneydevs.com
     database:
       name: moneydevs_devel
       user: root
