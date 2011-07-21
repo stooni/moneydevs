@@ -3,3 +3,5 @@ wp-admin
 webrat.log
 .project
 .settings
+wp-includes.tar.gz
+wp-content.tar.gz
