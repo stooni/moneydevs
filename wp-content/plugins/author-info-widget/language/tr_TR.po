@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Author Info Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-05 17:08+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dennis Hoppe\n"
+"Language-Team: Fatih Aker\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: t;t:2c,1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../form.php:2
+msgid "Title"
+msgstr "Başlık"
+
+#: ../form.php:4
+msgid "Leave blank to use the widget default title."
+msgstr "Widget'ın varsayılan başlığını kullanmak için boş bırakın."
+
+#: ../form.php:8
+msgid "Author(s)"
+msgstr "Yazar(lar)"
+
+#: ../form.php:10
+msgid "Show the author(s) of the post/page"
+msgstr "Yazı / sayfa'nın yazar(lar)ın göster"
+
+#: ../form.php:14
+msgid "Show the following author(s)"
+msgstr "Aşağıda ki yazar(lar)ı göster."
+
+#: ../form.php:16
+msgid "Please select the authors which should be shown by the widget."
+msgstr "Widget tarafından gösterilmesini istediğiniz yazarları seçiniz."
+
+#: ../form.php:26
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: ../form.php:29
+msgid "Show the authors avatar"
+msgstr "Yazar avatarını (resmini) göster."
+
+#: ../form.php:31
+msgid "You can setup your gravatar on <a href=\"http://gravatar.com/\" target=\"_blank\">the gravatar website</a>."
+msgstr "Gravatar'nızı <a href=\"http://gravatar.com/\" target=\"_blank\">Gravatar website</a>'inden ayarlayabilirsiniz."
+
+#: ../form.php:33
+msgid "Size"
+msgstr "Boyut"
+
+#: ../form.php:38
+msgid "Display"
+msgstr "Gösterimler"
+
+#: ../form.php:41
+msgid "Show the name of the author."
+msgstr "Yazarın adını göster."
+
+#: ../form.php:45
+msgid "Show the homepage link."
+msgstr "Anasayfa linkini göster."
+
+#: ../form.php:46
+#: ../form.php:51
+#: ../form.php:56
+#: ../form.php:61
+#: ../form.php:66
+msgid "Caption"
+msgstr "Başlık"
+
+#: ../form.php:50
+msgid "Show the E-Mail address."
+msgstr "E-posta adresini göster."
+
+#: ../form.php:55
+msgid "Show the jabber name."
+msgstr "Jabber adını göster."
+
+#: ../form.php:60
+msgid "Show the AIM name."
+msgstr "AIM adını göster."
+
+#: ../form.php:65
+msgid "Show the YIM name."
+msgstr "YIM adını göster."
+
+#: ../form.php:70
+msgid "Show a link to the authors posts on this blog."
+msgstr "Yazarın yazılarına bir link göster."
+
+#: ../form.php:74
+msgid "Miscellaneous"
+msgstr "Çeşitli"
+
+#: ../form.php:77
+msgid "Hide this widget from users which are not logged in."
+msgstr "Giriş yapmamış kullanıcılardan bu widget'ı gizle."
+
+#: ../form.php:82
+msgid "Hide this Widget on pages."
+msgstr "Widget'ı sayfalarda gösterme."
+
+#: ../wp-plugin-widget-author-info.php:30
+msgid "Author Information"
+msgstr "Yazar hakkında"
+
+#: ../wp-plugin-widget-author-info.php:31
+msgid "You can add this widget to sidebars on author relevant sections e.g. pages, posts or author archives."
+msgstr "Bu widget'ı yazarın ilişikli olduğu sayfa, yazı ya da arşivin yan menüsüne ekleyebilirsiniz."
+
+#: ../wp-plugin-widget-author-info.php:58
+msgid "Visit website"
+msgstr "Web safasını ziyaret et."
+
+#: ../wp-plugin-widget-author-info.php:59
+msgid "Write an E-Mail"
+msgstr "E-posta yaz."
+
+#: ../wp-plugin-widget-author-info.php:60
+msgid "Contact via Jabber"
+msgstr "Jabber aracılığı ile iletişime geç."
+
+#: ../wp-plugin-widget-author-info.php:61
+msgid "Contact via AIM"
+msgstr "AIM aracılığı ile iletişime geç."
+
+#: ../wp-plugin-widget-author-info.php:62
+msgid "Contact via YIM"
+msgstr "YIM aracılığı ile iletişime geç"
+
+#: ../wp-plugin-widget-author-info.php:160
+msgid "About the author"
+msgstr "Yazar hakkında"
+
+#: ../wp-plugin-widget-author-info.php:163
+msgid "About the authors"
+msgstr "Yazarlar hakkında"
+
+#: ../wp-plugin-widget-author-info.php:186
+#, php-format
+msgid "Read all of %s Posts"
+msgstr "%s isimli yazarın tüm yazılarını oku."
+
+#: ../wp-plugin-widget-author-info.php:188
+#, php-format
+msgid "Read all of %s's Posts"
+msgstr "%s isimli yazarın tüm yazılarını oku"
+

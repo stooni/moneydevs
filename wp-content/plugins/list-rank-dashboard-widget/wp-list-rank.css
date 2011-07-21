@@ -1,0 +1,64 @@
+
+/* List Rank Dashboard Widget*/
+
+#list-rank-sponsorship {
+	font-size: 9px;
+}
+
+#list-rank-resources {
+	float: right;
+	padding: 10px;
+	width: 180px;
+	margin-top: 30px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFEEB;
+}
+
+#list-rank-options {
+	float: left;
+}
+
+#list-rank-options textarea {
+	width: 300px;
+	height: 200px;
+}
+
+#list-rank-options input[type="text"] {
+	width: 300px;
+}
+
+.list-rank-remark {
+	font-size: 9px;
+}
+
+#list-rank-dashboard table {
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: #DFDFDF;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#list-rank-dashboard th, #list-rank-dashboard td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: solid;
+	border-color: #DFDFDF;
+	font-size: 10px;
+	text-align: center;
+}
+
+#list-rank-dashboard th {
+	font-weight: bold;
+}
+
+#list-rank-action {
+	margin: 7px 0;
+	font-size: 10px;
+}
+
+.list-rank-notice {
+	color: red;
+	font-weight: bold;
+}

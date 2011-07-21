@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Author Info Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-05 17:06+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dennis Hoppe\n"
+"Language-Team: Olivier Montbazet <zekag@free.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: t;t:2c,1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../form.php:2
+msgid "Title"
+msgstr "Titre"
+
+#: ../form.php:4
+msgid "Leave blank to use the widget default title."
+msgstr "Laisser vide pour conserver le titre par défaut."
+
+#: ../form.php:8
+msgid "Author(s)"
+msgstr "Auteur(s)"
+
+#: ../form.php:10
+msgid "Show the author(s) of the post/page"
+msgstr "Montrer le(s) auteur(s) du billet/de la page"
+
+#: ../form.php:14
+msgid "Show the following author(s)"
+msgstr "Afficher le(s) auteur(s) suivant(s)"
+
+#: ../form.php:16
+msgid "Please select the authors which should be shown by the widget."
+msgstr "Sélectionnez les auteurs qui doivent être affichés par le widget."
+
+#: ../form.php:26
+msgid "Gravatar"
+msgstr ""
+
+#: ../form.php:29
+msgid "Show the authors avatar"
+msgstr "Afficher le Gravatar de l'auteur"
+
+#: ../form.php:31
+msgid "You can setup your gravatar on <a href=\"http://gravatar.com/\" target=\"_blank\">the gravatar website</a>."
+msgstr "Vous pouvez choisir un gravatar sur <a href=\"http://gravatar.com/\" target=\"_blank\">le site Gravatar</a>."
+
+#: ../form.php:33
+msgid "Size"
+msgstr "Taille"
+
+#: ../form.php:38
+msgid "Display"
+msgstr "Affichage"
+
+#: ../form.php:41
+msgid "Show the name of the author."
+msgstr "Afficher le nom de l'auteur."
+
+#: ../form.php:45
+msgid "Show the homepage link."
+msgstr "Afficher un lien vers son site."
+
+#: ../form.php:46
+#: ../form.php:51
+#: ../form.php:56
+#: ../form.php:61
+#: ../form.php:66
+msgid "Caption"
+msgstr ""
+
+#: ../form.php:50
+msgid "Show the E-Mail address."
+msgstr "Afficher son adresse mail."
+
+#: ../form.php:55
+msgid "Show the jabber name."
+msgstr "Afficher son pseudo Jabber."
+
+#: ../form.php:60
+msgid "Show the AIM name."
+msgstr "Afficher son adresse AIM."
+
+#: ../form.php:65
+msgid "Show the YIM name."
+msgstr "Afficher son adresse YIM."
+
+#: ../form.php:70
+msgid "Show a link to the authors posts on this blog."
+msgstr "Afficher un lien vers les contributions de l'auteur."
+
+#: ../form.php:74
+msgid "Miscellaneous"
+msgstr "Divers."
+
+#: ../form.php:77
+msgid "Hide this widget from users which are not logged in."
+msgstr "Masquer le widget pour les utilisateurs non connectés."
+
+#: ../form.php:82
+msgid "Hide this Widget on pages."
+msgstr "Masquer le widget sur les pages."
+
+#: ../wp-plugin-widget-author-info.php:30
+#, fuzzy
+msgid "Author Information"
+msgstr "Infos sur l'auteur"
+
+#: ../wp-plugin-widget-author-info.php:31
+#, fuzzy
+msgid "You can add this widget to sidebars on author relevant sections e.g. pages, posts or author archives."
+msgstr "Vous pouvez afficher ce widget dans les barres latérales des sections adaptées : pages, billets, archives."
+
+#: ../wp-plugin-widget-author-info.php:58
+msgid "Visit website"
+msgstr "Visiter son site"
+
+#: ../wp-plugin-widget-author-info.php:59
+msgid "Write an E-Mail"
+msgstr "Lui écrire"
+
+#: ../wp-plugin-widget-author-info.php:60
+msgid "Contact via Jabber"
+msgstr "Contacter via Jabber"
+
+#: ../wp-plugin-widget-author-info.php:61
+msgid "Contact via AIM"
+msgstr "Contacter via AIM"
+
+#: ../wp-plugin-widget-author-info.php:62
+msgid "Contact via YIM"
+msgstr "Contacter via YIM"
+
+#: ../wp-plugin-widget-author-info.php:160
+msgid "About the author"
+msgstr "A propos de l'auteur"
+
+#: ../wp-plugin-widget-author-info.php:163
+msgid "About the authors"
+msgstr "A propos des auteurs"
+
+#: ../wp-plugin-widget-author-info.php:186
+#, php-format
+msgid "Read all of %s Posts"
+msgstr "Lire les contributions de %s"
+
+#: ../wp-plugin-widget-author-info.php:188
+#, php-format
+msgid "Read all of %s's Posts"
+msgstr "Lire les contributions de %s"
+

@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Author Info Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-05 17:07+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dennis Hoppe\n"
+"Language-Team: Dinis Correia <diniscorreia@mac.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: t;t:2c,1\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: PORTUGAL\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../form.php:2
+msgid "Title"
+msgstr "Título"
+
+#: ../form.php:4
+msgid "Leave blank to use the widget default title."
+msgstr "Deixe em branco para usar o título por omissão do widget."
+
+#: ../form.php:8
+msgid "Author(s)"
+msgstr "Autor(es)"
+
+#: ../form.php:10
+msgid "Show the author(s) of the post/page"
+msgstr "Mostrar o(s) autor(es) do post/página"
+
+#: ../form.php:14
+msgid "Show the following author(s)"
+msgstr "Mostras o(s) seguinte(s) autor(es)"
+
+#: ../form.php:16
+msgid "Please select the authors which should be shown by the widget."
+msgstr "Por favor, seleccione os autores que serão mostrados pelo widget."
+
+#: ../form.php:26
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: ../form.php:29
+msgid "Show the authors avatar"
+msgstr "Mostrar o avatar do autor"
+
+#: ../form.php:31
+msgid "You can setup your gravatar on <a href=\"http://gravatar.com/\" target=\"_blank\">the gravatar website</a>."
+msgstr "Pode configurar o seu Gravatar <a href=\"http://gravatar.com/\" target=\"_blank\">no site do Gravatar</a>."
+
+#: ../form.php:33
+msgid "Size"
+msgstr "Tamanho"
+
+#: ../form.php:38
+msgid "Display"
+msgstr "Mostrar"
+
+#: ../form.php:41
+msgid "Show the name of the author."
+msgstr "Mostrar o nome do autor."
+
+#: ../form.php:45
+msgid "Show the homepage link."
+msgstr "Mostrar o link da homepage."
+
+#: ../form.php:46
+#: ../form.php:51
+#: ../form.php:56
+#: ../form.php:61
+#: ../form.php:66
+msgid "Caption"
+msgstr "Legenda"
+
+#: ../form.php:50
+msgid "Show the E-Mail address."
+msgstr "Mostrar o endereço de e-mail."
+
+#: ../form.php:55
+msgid "Show the jabber name."
+msgstr "Mostrar o nome de utilizador do Jabber."
+
+#: ../form.php:60
+msgid "Show the AIM name."
+msgstr "Mostrar o nome de utilizador do AIM."
+
+#: ../form.php:65
+msgid "Show the YIM name."
+msgstr "Mostrar o nome de utilizador do YIM."
+
+#: ../form.php:70
+msgid "Show a link to the authors posts on this blog."
+msgstr "Mostrar um link para os posts dos autores neste blog."
+
+#: ../form.php:74
+msgid "Miscellaneous"
+msgstr "Diversos"
+
+#: ../form.php:77
+msgid "Hide this widget from users which are not logged in."
+msgstr "Esconder o widget para utilizadores que não estejam logados."
+
+#: ../form.php:82
+msgid "Hide this Widget on pages."
+msgstr "Esconder o widget em páginas."
+
+#: ../wp-plugin-widget-author-info.php:30
+msgid "Author Information"
+msgstr "Informação do autor"
+
+#: ../wp-plugin-widget-author-info.php:31
+msgid "You can add this widget to sidebars on author relevant sections e.g. pages, posts or author archives."
+msgstr "Pode adicionar este widget às barras laterais em secções relevantes, por exemplo, páginas, posts ou arquivos de autor."
+
+#: ../wp-plugin-widget-author-info.php:58
+msgid "Visit website"
+msgstr "Viste o website"
+
+#: ../wp-plugin-widget-author-info.php:59
+msgid "Write an E-Mail"
+msgstr "Escreva um e-mail"
+
+#: ../wp-plugin-widget-author-info.php:60
+msgid "Contact via Jabber"
+msgstr "Contactar via Jabber"
+
+#: ../wp-plugin-widget-author-info.php:61
+msgid "Contact via AIM"
+msgstr "Contactar via AIM"
+
+#: ../wp-plugin-widget-author-info.php:62
+msgid "Contact via YIM"
+msgstr "Contactar via YIM"
+
+#: ../wp-plugin-widget-author-info.php:160
+msgid "About the author"
+msgstr "Sobe o autor"
+
+#: ../wp-plugin-widget-author-info.php:163
+msgid "About the authors"
+msgstr "Sobre os autores"
+
+#: ../wp-plugin-widget-author-info.php:186
+#, php-format
+msgid "Read all of %s Posts"
+msgstr "Ler todos os posts de %s"
+
+#: ../wp-plugin-widget-author-info.php:188
+#, php-format
+msgid "Read all of %s's Posts"
+msgstr "Ler todos os posts de %s"
+

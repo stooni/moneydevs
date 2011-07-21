@@ -70,4 +70,8 @@
 			
 			</div>
 		</header>
-	<?php roots_header_after(); ?>
+	<?php roots_header_after(); ?> 
+
+<?php if ( function_exists('yoast_breadcrumb') ) {
+	yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+} ?>

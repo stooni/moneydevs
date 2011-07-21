@@ -22,10 +22,10 @@ define('DB_NAME', 'mdproduction');
 define('DB_USER', 'mdproduction');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'glUP1i1su9');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mdproduction.db.8138362.hostedresource.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
