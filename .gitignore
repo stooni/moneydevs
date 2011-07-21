@@ -5,3 +5,4 @@ webrat.log
 .settings
 wp-includes.tar.gz
 wp-content.tar.gz
+wp-config.php
