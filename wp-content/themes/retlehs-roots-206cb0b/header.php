@@ -20,6 +20,7 @@
 	<script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
 	<?php wp_head(); ?>
+
 	<?php roots_head(); ?>
 
 	<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
@@ -28,15 +29,21 @@
 <body <?php $page_slug = $post->post_name; body_class($page_slug); ?>>
 
 	<?php roots_wrap_before(); ?>
+
 	<div id="wrap" class="container" role="document">
+
 	<?php roots_header_before(); ?>
 		<header id="banner" class="<?php global $roots_options; echo $roots_options['container_class']; ?>" role="banner">
+
 			<?php roots_header_inside(); ?>
+
 			<div class="container">
-	
+
 				<a id="logo" href="<?php echo home_url(); ?>/">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" width="300" height="75" alt="<?php bloginfo('name'); ?>">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" width="350" height="80" alt="<?php bloginfo('name'); ?>">
 				</a>
+
+
 				
 				<?php if ($roots_options['clean_menu']) { ?>
 					<nav id="nav-main" role="navigation">

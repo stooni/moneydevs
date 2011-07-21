@@ -1,4 +1,9 @@
 	<?php roots_footer_before(); ?>
+
+<?php if( function_exists('FA_display_slider') ){
+    FA_display_slider(225);
+} ?> 
+
 		<footer id="content-info" class="<?php global $roots_options; echo $roots_options['container_class']; ?>" role="contentinfo">
 			<?php roots_footer_inside(); ?>
 			<div class="container">
@@ -7,8 +12,15 @@
 				<p class="copy"><small>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></small></p>
 			</div>	
 		</footer>
+
+
+
+
+
 		<?php roots_footer_after(); ?>	
 	</div><!-- /#wrap -->
+
+
 
 <?php wp_footer(); ?>
 <?php roots_footer(); ?>
