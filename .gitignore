@@ -6,3 +6,7 @@ webrat.log
 wp-includes.tar.gz
 wp-content.tar.gz
 wp-config.php
+wp-content/bte-wb/plugins.zip
+wp-content/bte-wb/themes.zip
+wp-content/cache
+wp-content/uploads
